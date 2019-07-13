@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "interactive"
+		},
+		{
+			"path": "elementData"
+		},
+		{
+			"path": "chat"
+		},
+		{
+			"path": "cmdhandler"
+		},
+		{
+			"path": "login"
+		},
+		{
+			"path": "vehicle"
+		},
+		{
+			"path": "database"
+		},
+		{
+			"path": "customization"
+		},
+		{
+			"path": "idsys"
+		}
+	]
+}

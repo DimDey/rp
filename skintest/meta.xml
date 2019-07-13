@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="dimdey" type="misc" name="skintest" description="skintest" />
+     <script src="script.lua" type="client" />
+     <file src="vmaff1.txd" />
+     <file src="vmaff1.dff" />
+</meta>

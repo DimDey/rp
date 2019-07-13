@@ -1,0 +1,8 @@
+<meta>
+  <info name="customization" type="script" version="1.0" author="dimdey" />
+  <script src="main.lua" type="client" />
+
+  <file src="shader.fx" />
+  <file src="mta-helper.fx" />
+  <file src="skin.png" />
+</meta>

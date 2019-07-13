@@ -1,0 +1,5 @@
+<meta>
+  <info name="auth" type="script" version="1.0" author="dimdey" />
+  <script src="main.lua" type="server" />
+
+</meta>

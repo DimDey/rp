@@ -1,0 +1,10 @@
+<meta>
+    <info author="DimDey" version="1.0" name="Interactive System" type="script" />
+    <script src="intmain_server.lua" />
+    <script src="intmain_client.lua" type="client" />
+    <script src="intshared.lua" type="shared" />
+
+    <file src="assets/ped-stroke.fx" type="client" />
+	<file src="assets/obj-stroke.fx" type="client" />
+	<file src="assets/mta-helper.fx" type="client" />
+</meta>

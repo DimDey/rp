@@ -1,0 +1,4 @@
+<meta>
+  <info name="cmdhandler2" type="script" version="1.0" author="dimdey" />
+  <script src="cmdmain.lua" type="server" />
+</meta>

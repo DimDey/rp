@@ -1,0 +1,5 @@
+<meta>
+    <info author="DimDey" version="1.0" name="Element Data System" type="script" />
+    <script src="eldata_server.lua" type="server" />
+    <script src="eldata_client.lua" type="client" />
+</meta>

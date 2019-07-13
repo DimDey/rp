@@ -1,0 +1,28 @@
+<meta>
+
+  <info name="auth" type="script" version="1.0" author="dimdey" />
+  <script src="utils.lua" type="client" />
+  <script src="login_s.lua" type="server" />
+  <script src="authmain.lua" type="client" />
+  <script src="auth_login.lua" type="client" />
+  <script src="auth_register.lua" type="client" />
+  <script src="auth_createperson.lua" type="client" />
+
+  <file src="Shaders/mask.fx" type="client" />  
+
+  <file src="Images/auth-btn.png" type="client" />
+	<file src="Images/reg-btn.png" type="client" />
+	<file src="Images/next-btn.png" type="client" />
+	<file src="Images/background-auth.png" type="client" />
+	<file src="Images/background-reg.png" type="client" />
+	<file src="Images/background-login.png" type="client" />
+
+	<file src="Fonts/fontawesome.ttf" type="client" />
+	<file src="Fonts/BebasNeue Bold.otf" type="client" />
+	<file src="Fonts/BebasNeue Book.otf" type="client" />
+	<file src="Fonts/BebasNeue Light.otf" type="client" />
+	<file src="Fonts/BebasNeue Regular.otf" type="client" />
+	<file src="Fonts/BebasNeue Thin.otf" type="client" />
+  <file src="Fonts/CeraPro-Regular.ttf" type="client" />
+
+</meta>
