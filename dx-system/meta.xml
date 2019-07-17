@@ -1,0 +1,9 @@
+<meta>
+
+  <info name="auth" type="script" version="1.0" author="dimdey" />
+  <script src="mainhandle.lua" type="client" />
+  <script src="eventlist.lua" type="client" />
+  <script src="utils.lua" type="client" />
+  <script src="button.lua" type="client" />
+  <script src="edit.lua" type="client" />
+</meta>

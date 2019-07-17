@@ -24,15 +24,17 @@ function onClientClickRegister()
     animateRectangles[2] = screenH * 0.5
     yPosition = -(screenH * 0.5)
     regRt = dxCreateRenderTarget(screenW * 0.5,screenH,true)
-end
-
-function dxDrawRegMenu()
     if not(fontawesome) then
         fontawesome = getFont("Fonts/fontawesome.ttf",15,false,"antialiased")
     end
     if not(bebasreg) then
         bebasreg = getFont("Fonts/BebasNeue Regular.otf",20,false,"antialiased")
     end
+
+end
+
+function dxDrawRegMenu()
+    
     dxDrawImage(0,0,screenW * 0.5,screenH * 0.5,"Images/background-login.png")
     dxDrawRectangle(0,0,screenW * 0.5,screenH * 0.5,tocolor(29,29,33,100))
     dxDrawRectangle(0,yPosition,screenW * 0.5,screenH * 0.5,tocolor(255,106,19,175))
@@ -184,11 +186,9 @@ end
 function onSuccessEdits()
     animateChange()
     selectedMenu = "createcharacter"
-    setTimer(function()
-        destroyElement(logEdit)
-        destroyElement(emailEdit)
-        destroyElement(passEdit)
-    end,50,1)
+    destroyElement(logEdit)
+    destroyElement(emailEdit)
+    destroyElement(passEdit)
     
     removeEventHandler("onClientRender",root,dxDrawRegMenu)
     
